@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html ng-app="GlobalModule">
+<head>
+    <title></title>
+    <!--Style Sheets-->
+    <link href="CSS/Index.css" rel="stylesheet" />
+    <!-- JavaScript Library used-->
+    <script src="JS/Lib/JQuery1.11.3.js"></script>
+    <script src="JS/Lib/AngularJS/AngularJS.js"></script>
+    <script src="JS/Lib/AngularJS/angular-route.js"></script>
+    <!--JavaScript -->
+    <!--Global JS-->
+    <script src="JS/Index.js"></script>
+    <!--Controllers-->
+    <script src="Controllers/jiraReport_ReportsCtrl.js"></script>
+</head>
+<body>
+    <!-- Main div -->
+    <div style="background-color: #FBF2D5;">
+        <!--Banner div -->
+        <div style="background-color: #FBF2D5;" id="DVbanner">
+            <div style="min-height:10px;"></div>
+        </div>
+
+        <!--Navigator -->
+        <div class="navigator" id="DvNavigator">
+            <ul>
+                <li>
+                    <a href="#" onclick="window.location = '#/' ;return false;" target="_blank" class="NavigatorMid">
+                        Reports
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="window.location = '#/';return false;" class="NavigatorMid">
+                        Reports2
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- Body Part -->
+        <div style=" background-color: #FFF6F6;" id="dvBody">
+            <div style="padding: 10px;" ng-view>
+            </div>
+        </div>
+        <!--Footer -->
+        <div style="background: none repeat scroll 0% 0% #AD0800;min-height:3px;"></div>
+        <div style="background-color: #FBF2D5; text-align:center;" id="dvFooter">
+            <a href="#" onclick="alert('Work in progress');return false;" target="_blank" class="NavigatorNormal" style="color:black !important;">
+                COPY RIGHTS
+            </a> <a href="#" onclick="alert('Work in progress');return false;" style="color:black !important;" class="NavigatorNormal">
+                OUR VISION
+            </a>
+            <a href="#" onclick="alert('Work in progress');return false;" class="NavigatorNormal" style="color:black !important;">
+                ABOUT NAGARRO
+            </a>
+        </div>
+    </div>
+</body>
+</html>

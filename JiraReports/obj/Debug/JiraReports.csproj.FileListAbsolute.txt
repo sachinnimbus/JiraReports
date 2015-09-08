@@ -1,0 +1,6 @@
+C:\Project\JiraReports\JiraReports\bin\JiraReports.dll.config
+C:\Project\JiraReports\JiraReports\bin\JiraReports.dll
+C:\Project\JiraReports\JiraReports\bin\JiraReports.pdb
+C:\Project\JiraReports\JiraReports\obj\Debug\JiraReports.csprojResolveAssemblyReference.cache
+C:\Project\JiraReports\JiraReports\obj\Debug\JiraReports.dll
+C:\Project\JiraReports\JiraReports\obj\Debug\JiraReports.pdb
